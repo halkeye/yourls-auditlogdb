@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: AuditLog DB
-Plugin URI: https://github.com/halkeye/yourls_auditlogdb_db
+Plugin URI: https://github.com/halkeye/yourls-auditlogdb
 Description: Logs actions to db
 Version: 1.0.0
 Author: Gavin "halkeye" Mogan
