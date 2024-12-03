@@ -111,6 +111,7 @@ function auditlogdb_activated_plugin($plugin)
 
   $ydb = yourls_get_db();
   $ydb->perform('CREATE TABLE IF NOT EXISTS `' . AUDITLOGDB_DB_TABLE_LOG . '` (' .
+    '`id` bigint(20) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,' .
     '`timestamp` timestamp NOT NULL DEFAULT current_timestamp(),' .
     '`actor` varchar(100) NOT NULL,' .
     '`action` varchar(100) NOT NULL,' .
